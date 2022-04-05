@@ -2,7 +2,7 @@ import { HttpClient } from "../HttpClient";
 
 class ProductsService extends HttpClient {
   constructor() {
-    super("localhost:3000");
+    super("https://624bc93f44505084bc557516.mockapi.io/ReactPractice/");
   }
 
   getAllProducts() {
