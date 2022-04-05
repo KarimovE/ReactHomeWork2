@@ -8,9 +8,9 @@ class ProductsService extends HttpClient {
   getAllProducts() {
     return this.get("products");
   }
-  // getProductsById(id) {
-  //   return this.getById("products", id);
-  // }
+   getProductsById(id) {
+     return this.getById("products", id);
+   }
 }
 
 export const productsService = new ProductsService();
